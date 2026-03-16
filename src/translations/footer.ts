@@ -2,8 +2,8 @@ import { Lang } from "@/context/LanguageContext";
 
 const footerTranslations: Record<Lang, Record<string, string>> = {
   en: {
-    brandName: "Ellia Foundation",
-    brandDesc: "A charitable humanitarian NGO dedicated to providing care for orphans and support for families in need.",
+    brandName: "Judy Academy",
+    brandDesc: "An academic institution dedicated to advancing scholarly research in Qur'anic studies and Islamic sciences.",
 
     // Column titles
     quickLinksTitle: "Quick Links",
@@ -20,23 +20,24 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     linkNews: "News",
 
     // Programs
-    prog1: "Orphan Sponsorship",
-    prog2: "Education Support",
-    prog3: "Healthcare Initiatives",
-    prog4: "Emergency Relief",
+    prog1: "Qur'anic Exegesis",
+    prog2: "Islamic Sciences",
+    prog3: "Research Fellowship",
+    prog4: "Academic Dialogue",
 
     // Contact
     address: "Erbil, Kurdistan Region, Iraq",
-    email: "info@elliafoundation.org",
+    email: "info@judyacademy.org",
     phone: "07504477409",
+    contactUs: "Contact Us",
 
     // Bottom
-    copyright: "Ellia Foundation. All rights reserved.",
+    copyright: "Judy Academy for Qur'anic Research and Studies. All rights reserved.",
   },
 
   ku: {
-    brandName: "دەزگای ئیلیای مرۆیی",
-    brandDesc: "ڕێکخراوێکی خێرخوازی مرۆڤدۆستانەیە تایبەت بە چاودێریکردنی هەتیوان و پشتیوانیکردنی خێزانە پێویستمەندەکان.",
+    brandName: "ئەکادیمیای جودی",
+    brandDesc: "دامەزراوەیەکی ئەکادیمییە تایبەتە بە پەرەپێدانی توێژینەوەی زانستی لە لێکۆڵینەوە قورئانییەکان و زانستە ئیسلامییەکاندا.",
 
     quickLinksTitle: "لینکە خێراکان",
     programsTitle: "بەرنامەکان",
@@ -50,21 +51,22 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     linkContact: "پەیوەندی",
     linkNews: "هەواڵ",
 
-    prog1: "کەفاڵەتی هەتیوان",
-    prog2: "پشتیوانی خوێندن",
-    prog3: "بەرنامەکانی تەندروستی",
-    prog4: "یارمەتی فریاگوزاری",
+    prog1: "تەفسیری قورئان",
+    prog2: "زانستە ئیسلامییەکان",
+    prog3: "هاوکاری توێژینەوە",
+    prog4: "دیالۆگی ئەکادیمی",
 
     address: "هەولێر، هەرێمی کوردستان، عێراق",
-    email: "info@elliafoundation.org",
-    phone: "07504477409",
+    email: "info@judyacademy.org",
+    phone: "٠٧٥٠٤٤٧٧٤٠٩",
+    contactUs: "پەیوەندیمان پێوە بکە",
 
-    copyright: "دەزگای ئیلیای مرۆیی. هەموو مافەکان پارێزراون.",
+    copyright: "ئەکادیمیای جودی بۆ توێژینەوە و لێکۆڵینەوە قورئانییەکان. هەموو مافەکان پارێزراون.",
   },
 
   ar: {
-    brandName: "مؤسسة إيليا",
-    brandDesc: "منظمة إنسانية خيرية مكرسة لتوفير الرعاية للأيتام ودعم الأسر المحتاجة.",
+    brandName: "أكاديمية جودي",
+    brandDesc: "مؤسسة أكاديمية مكرسة لتعزيز البحث العلمي في الدراسات القرآنية والعلوم الإسلامية.",
 
     quickLinksTitle: "روابط سريعة",
     programsTitle: "البرامج",
@@ -78,16 +80,17 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     linkContact: "اتصل بنا",
     linkNews: "الأخبار",
 
-    prog1: "كفالة الأيتام",
-    prog2: "دعم التعليم",
-    prog3: "المبادرات الصحية",
-    prog4: "الإغاثة الطارئة",
+    prog1: "تفسير القرآن",
+    prog2: "العلوم الإسلامية",
+    prog3: "زمالة البحوث",
+    prog4: "الحوار الأكاديمي",
 
     address: "أربيل، إقليم كوردستان، العراق",
-    email: "info@elliafoundation.org",
-    phone: "07504477409",
+    email: "info@judyacademy.org",
+    phone: "٠٧٥٠٤٤٧٧٤٠٩",
+    contactUs: "اتصل بنا",
 
-    copyright: "مؤسسة إيليا. جميع الحقوق محفوظة.",
+    copyright: "أكاديمية جودي للبحوث والدراسات القرآنية. جميع الحقوق محفوظة.",
   },
 };
 

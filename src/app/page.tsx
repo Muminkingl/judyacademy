@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
+
 import Gallery from "@/components/Gallery";
 import FAQ from "@/components/FAQ";
 import DonationMethods from "@/components/DonationMethods";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Testimonials />
+
       <Gallery />
       <FAQ />
       <DonationMethods />

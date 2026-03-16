@@ -285,7 +285,7 @@ export default function EditPost() {
                   <div className="w-7 h-7 rounded-xl flex items-center justify-center bg-primary/10 border border-primary/20">
                     <Edit3 className="w-3.5 h-3.5 text-primary" />
                   </div>
-                  <span className="text-[10px] font-bold tracking-[0.22em] uppercase text-primary">Ellia Admin</span>
+                  <span className="text-[10px] font-bold tracking-[0.22em] uppercase text-primary">Judy Admin</span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-foreground">
                   Edit Post
@@ -530,10 +530,10 @@ export default function EditPost() {
                       {/* Meta row */}
                       <div className="flex items-center gap-3 mb-4">
                         <div className="w-7 h-7 rounded-full flex items-center justify-center bg-primary">
-                          <span className="text-[10px] font-black text-white">E</span>
+                          <span className="text-[10px] font-black text-white">J</span>
                         </div>
                         <div>
-                          <div className="text-[11px] font-bold" style={{ color: "#1a2b20" }}>Ellia Foundation</div>
+                          <div className="text-[11px] font-bold" style={{ color: "#1a2b20" }}>Judy Academy</div>
                           <div className="text-[10px]" style={{ color: "rgba(26,43,32,0.4)" }}>
                             {new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}
                             {readTime > 0 && ` · ${readTime} min read`}

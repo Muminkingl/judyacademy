@@ -15,7 +15,7 @@ export default function LoginForm1() {
 
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-center px-4"
-      style={{ background: "linear-gradient(160deg, #0e1a12 0%, #121f16 55%, #0c1710 100%)" }}
+      style={{ background: "linear-gradient(180deg, #160900 0%, #1A0C07 100%)" }}
     >
       {/* Grain */}
       <div
@@ -27,7 +27,7 @@ export default function LoginForm1() {
       />
       {/* Glow */}
       <div className="fixed inset-0 pointer-events-none"
-        style={{ background: "radial-gradient(ellipse at 50% 40%, rgba(200,153,42,0.08) 0%, transparent 60%)" }}
+        style={{ background: "radial-gradient(ellipse at 50% 40%, rgba(201,168,76,0.1) 0%, transparent 60%)" }}
       />
 
       <motion.div
@@ -41,28 +41,28 @@ export default function LoginForm1() {
           className="rounded-3xl overflow-hidden"
           style={{
             background: "rgba(255,255,255,0.03)",
-            border: "1px solid rgba(200,153,42,0.15)",
+            border: "1px solid rgba(201,168,76,0.2)",
             boxShadow: "0 16px 60px -16px rgba(0,0,0,0.5)",
           }}
         >
           {/* Gold top accent */}
-          <div className="h-[3px] w-full" style={{ background: "linear-gradient(90deg, transparent, #c8992a, transparent)" }} />
+          <div className="h-[3px] w-full" style={{ background: "linear-gradient(90deg, transparent, #C9A84C, transparent)" }} />
 
           <div className="p-8 sm:p-10">
             {/* Logo */}
             <div className="text-center mb-8">
-              <div className="w-20 h-20 rounded-2xl overflow-hidden mx-auto mb-5 bg-white flex items-center justify-center"
-                style={{ border: "2px solid rgba(200,153,42,0.3)", boxShadow: "0 8px 24px -8px rgba(200,153,42,0.2)" }}
+              <div className="w-24 h-24 rounded-2xl overflow-hidden mx-auto mb-5 flex items-center justify-center"
+                style={{ border: "2px solid rgba(201,168,76,0.2)", background: "radial-gradient(ellipse at center, rgba(201,168,76,0.08), transparent)", boxShadow: "0 8px 24px -8px rgba(201,168,76,0.2)" }}
               >
-                <img src="/eliaf.jpg" alt="Ellia Foundation" className="w-full h-full object-contain p-1" />
+                <img src="/judy.png" alt="Judy Academy" className="w-full h-full object-contain p-2" />
               </div>
               <h1
                 className="text-2xl sm:text-3xl font-black tracking-tight mb-2"
-                style={{ fontFamily: "'Georgia', serif", color: "#f5edd8" }}
+                style={{ fontFamily: "Georgia, 'Times New Roman', serif", color: "#F5EDD0" }}
               >
                 Admin Login
               </h1>
-              <p className="text-sm" style={{ color: "rgba(245,237,216,0.4)" }}>
+              <p className="text-sm" style={{ color: "rgba(191,168,130,0.55)", fontFamily: "Georgia, serif", fontStyle: "italic" }}>
                 Sign in to access the admin panel
               </p>
             </div>
@@ -70,13 +70,13 @@ export default function LoginForm1() {
             {/* Google Button */}
             <motion.button
               onClick={handleGoogleLogin}
-              whileHover={{ scale: 1.02, boxShadow: "0 8px 30px -8px rgba(200,153,42,0.3)" }}
+              whileHover={{ scale: 1.02, boxShadow: "0 8px 30px -8px rgba(201,168,76,0.3)" }}
               whileTap={{ scale: 0.98 }}
               className="w-full flex items-center justify-center gap-3 py-4 px-6 rounded-2xl font-bold text-sm tracking-wide transition-all duration-300 relative overflow-hidden"
               style={{
                 background: "rgba(255,255,255,0.06)",
-                border: "1.5px solid rgba(200,153,42,0.25)",
-                color: "#f5edd8",
+                border: "1px solid rgba(201,168,76,0.3)",
+                color: "#F5EDD0",
               }}
             >
               {/* Google SVG icon */}
@@ -105,15 +105,15 @@ export default function LoginForm1() {
 
             {/* Divider */}
             <div className="flex items-center gap-3 my-6">
-              <div className="flex-1 h-px" style={{ background: "rgba(200,153,42,0.15)" }} />
-              <span className="text-xs font-bold tracking-widest uppercase" style={{ color: "rgba(200,153,42,0.4)" }}>
+              <div className="flex-1 h-px" style={{ background: "rgba(201,168,76,0.2)" }} />
+              <span className="text-xs font-bold tracking-widest uppercase" style={{ color: "rgba(201,168,76,0.5)" }}>
                 Secure Login
               </span>
-              <div className="flex-1 h-px" style={{ background: "rgba(200,153,42,0.15)" }} />
+              <div className="flex-1 h-px" style={{ background: "rgba(201,168,76,0.2)" }} />
             </div>
 
             {/* Info */}
-            <p className="text-xs text-center leading-relaxed" style={{ color: "rgba(245,237,216,0.25)" }}>
+            <p className="text-[11px] text-center leading-relaxed" style={{ color: "rgba(191,168,130,0.4)", fontFamily: "Georgia, serif" }}>
               Only authorized administrators can access the admin panel.
               <br />
               Contact the organization if you need access.
@@ -125,8 +125,8 @@ export default function LoginForm1() {
         <div className="text-center mt-6">
           <a
             href="/"
-            className="text-xs font-medium transition-colors hover:text-[#c8992a]"
-            style={{ color: "rgba(245,237,216,0.35)" }}
+            className="text-xs font-bold transition-colors hover:text-[#C9A84C]"
+            style={{ color: "rgba(201,168,76,0.5)", fontFamily: "Georgia, serif", letterSpacing: "0.05em", textTransform: "uppercase" }}
           >
             ← Back to website
           </a>

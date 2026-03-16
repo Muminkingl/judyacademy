@@ -2,12 +2,12 @@ import { Lang } from "@/context/LanguageContext";
 
 const testimonialsTranslations: Record<Lang, Record<string, string>> = {
   en: {
-    sectionLabel: "Voices of the Foundation",
-    headingLine1: "Quotes &",
-    headingAccent: "Opinions",
-    headingLine3: "from Our People",
+    sectionLabel: "Voices of the Academy",
+    headingLine1: "Insights &",
+    headingAccent: "Research",
+    headingLine3: "from Our Scholars",
     description:
-      "The most important statements and opinions of the president, volunteers, and members of the Ellia Foundation — written or spoken during their service.",
+      "Important statements and perspectives from the president, researchers, and members of Judy Academy — shared during their academic service.",
 
     // Testimonial 1
     quote1: "The poor are not only in Ramadan, but in all twelve months of the year. Don't forget them.",
@@ -26,12 +26,12 @@ const testimonialsTranslations: Record<Lang, Record<string, string>> = {
   },
 
   ku: {
-    sectionLabel: "دەنگی دەزگاکە",
-    headingLine1: "وتە و",
-    headingAccent: "بۆچوونەکان",
-    headingLine3: "لە خەڵکەکانمان",
+    sectionLabel: "دەنگی ئەکادیمیا",
+    headingLine1: "تێڕوانین و",
+    headingAccent: "توێژینەوەکان",
+    headingLine3: "لە زاناکانمان",
     description:
-      "گرنگترین وتە و بۆچوونەکانی سەرۆک، خۆبەخشان و ئەندامانی دەزگای ئیلیا — لە کاتی خزمەتکردنەکانیاندا نووسراو یان ووتراو.",
+      "گرنگترین وتە و تێڕوانینەکانی سەرۆک، توێژەران و ئەندامانی ئەکادیمیای جودی — لە کاتی چالاکییە ئەکادیمییەکانیاندا.",
 
     quote1: "هەژارەکان تەنها لە ڕەمەزاندا نین، بەڵکو لە هەر دوازدە مانگی ساڵدا هەن. لەبیریان مەکەن.",
     author1: "د. هۆگر غریب خذر",
@@ -47,12 +47,12 @@ const testimonialsTranslations: Record<Lang, Record<string, string>> = {
   },
 
   ar: {
-    sectionLabel: "أصوات المؤسسة",
-    headingLine1: "اقتباسات و",
-    headingAccent: "آراء",
-    headingLine3: "من أبناء المؤسسة",
+    sectionLabel: "أصوات الأكاديمية",
+    headingLine1: "رؤى و",
+    headingAccent: "أبحاث",
+    headingLine3: "من باحثينا",
     description:
-      "أهم تصريحات وآراء رئيس ومتطوعي وأعضاء مؤسسة إيليا — كُتبت أو قيلت أثناء خدمتهم.",
+      "أهم تصريحات ورؤى رئيس وباحثي وأعضاء أكاديمية جودي — التي تمت مشاركتها خلال مسيرتهم الأكاديمية.",
 
     quote1: "الفقراء ليسوا فقط في رمضان، بل في جميع أشهر السنة الاثني عشر. لا تنسوهم.",
     author1: "د. هوكر غريب خوسر",

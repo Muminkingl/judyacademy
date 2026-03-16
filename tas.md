@@ -1,29 +1,7 @@
-1; thanks so much now in the ladning page in hero section make this button `LEARN MORE
-` to go #quote section and the `sponser child` make it go to the /contact page , and in the quote section the `Ahmed Hassan` guy make it Comment as a role not the `Field Program Director
+thanks so much now the website is done ! that website is for a organazation for helping orphans and poor child now i want t o build another website so i clone the previus one and i want to edit that new clone one so look the website for an  organazation for `
 
+```markdown
+`Judi Academy for Qur’anic Research and Studies is an academic institution dedicated to advancing scholarly research in Qur’anic studies and Islamic sciences. It aims to support researchers, promote academic dialogue, and disseminate Qur’anic knowledge through a rigorous scientific approach`
+```
 
-` make sure change this in the translation as well 
-
-
-
-2; in the footer for the tiktok add this link `https://www.tiktok.com/@eliafoundation`
-
-and for the youtube add this link `https://www.youtube.com/channel/UCdIyOhswABxSkhtQZC62s5Q`
-
-and for the instagram add this link `https://www.instagram.com/elia.foundation/`
-
-
-
-Tiktok;
-eliiafoundation@gmail.com
-Mklop123@
-
-
-youtube;
-eliiafoundation@gmail.com
-Mklop123@
-
-
-instagram;
-eliiafoundation@gmail.com
-Mklop123@
+so lets update the hero section look change eveyrhting in design, color, use something like dark brown or idk some color fit this for qurans you know what is better just ake sure change entirely the hero section use deffrent style method ui design everything ! the webiste name is `` Judy Academy``

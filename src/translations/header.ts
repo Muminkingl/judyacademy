@@ -4,82 +4,70 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
   en: {
     // Top bar
     address: "40M St, Erbil, Iraq",
-    email: "info@elliafoundation.org",
+    email: "info@judyacademy.org",
     phone: "07504477409",
-    sponsorOrphan: "Sponsor an Orphan",
-    organization: "Organization",
-    foundationName: "Ellia Foundation",
+    foundationName: "Judy Academy",
 
     // Nav links
     home: "Home",
-    quotes: "Quotes",
     gallery: "Gallery",
     faq: "FAQ",
-    donation: "Donation",
     contact: "Contact",
     news: "News",
 
-    // Donate button
-    donate: "Donate",
-    donateNow: "Donate Now",
+    // Taglines
+    tagline: "Advancing Qur'anic Knowledge",
+    academicTag: "for Qur'anic Research",
+    estKurdistan: "Est. Kurdistan",
 
-    // Mobile menu
-    foundation: "Foundation",
-    ellia: "Ellia",
+    // CTA
+    contactUs: "Contact Us",
   },
 
   ku: {
     // Top bar
     address: "شەقامی ٤٠م، هەولێر، عێراق",
-    email: "info@elliafoundation.org",
-    phone: "07504477409",
-    sponsorOrphan: "کەفاڵەتی هەتیوێک",
-    organization: "ڕێکخراو",
-    foundationName: "دەزگای ئیلیای مرۆیی",
+    email: "info@judyacademy.org",
+    phone: "٠٧٥٠٤٤٧٧٤٠٩",
+    foundationName: "ئەکادیمیای جودی",
 
     // Nav links
     home: "سەرەکی",
-    quotes: "وتەکان",
     gallery: "وێنەکان",
     faq: "پرسیارەکان",
-    donation: "بەخشین",
     contact: "پەیوەندی",
     news: "هەواڵ",
 
-    // Donate button
-    donate: "بەخشین",
-    donateNow: "ئێستا بەخشین بکە",
+    // Taglines
+    tagline: "پەرەپێدانی زانیاریی قورئانی",
+    academicTag: "بۆ توێژینەوەی قورئانی",
+    estKurdistan: "لە کوردستان دامەزراوە",
 
-    // Mobile menu
-    foundation: "فاوندەیشن",
-    ellia: "دەزگای ئیلیای مرۆیی",
+    // CTA
+    contactUs: "پەیوەندیمان پێوە بکە",
   },
 
   ar: {
     // Top bar
     address: "شارع 40م، أربيل، العراق",
-    email: "info@elliafoundation.org",
-    phone: "07504477409",
-    sponsorOrphan: "اكفل يتيماً",
-    organization: "منظمة",
-    foundationName: "مؤسسة إيليا",
+    email: "info@judyacademy.org",
+    phone: "٠٧٥٠٤٤٧٧٤٠٩",
+    foundationName: "أكاديمية جودي",
 
     // Nav links
     home: "الرئيسية",
-    quotes: "الاقتباسات",
     gallery: "المعرض",
     faq: "الأسئلة",
-    donation: "التبرع",
     contact: "اتصل بنا",
     news: "الأخبار",
 
-    // Donate button
-    donate: "تبرع",
-    donateNow: "تبرع الآن",
+    // Taglines
+    tagline: "نشر المعرفة القرآنية",
+    academicTag: "للبحوث القرآنية",
+    estKurdistan: "تأسست في كوردستان",
 
-    // Mobile menu
-    foundation: "مؤسسة",
-    ellia: "إيليا",
+    // CTA
+    contactUs: "تواصل معنا",
   },
 };
 

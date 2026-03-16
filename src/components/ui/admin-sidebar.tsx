@@ -72,10 +72,10 @@ export const AdminSidebar = memo(() => {
             <SidebarMenuButton size="lg" asChild>
               <Link prefetch={false} href="/admin">
                 <div className="bg-primary text-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg overflow-hidden">
-                  <img src="/eliaf.jpg" alt="Ellia Foundation" className="w-full h-full object-cover" />
+                  <img src="/judy.png" alt="Judy Academy" className="w-full h-full object-cover" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-semibold">Ellia Foundation</span>
+                  <span className="truncate font-semibold">Judy Academy</span>
                   <span className="truncate text-xs">Admin Panel</span>
                 </div>
               </Link>

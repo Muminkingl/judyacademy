@@ -9,8 +9,8 @@ const faqTranslations: Record<Lang, Record<string, string>> = {
     headerNote: "Can't find your answer here? Reach out directly — we reply to every message with care.",
 
     // FAQ 1
-    q1: "Does the Ellia Foundation belong to any political party?",
-    a1: "No. Ellia Foundation is fully independent — not affiliated with any political party. We are licensed by the Office of NGOs and carry out all projects without discrimination of any kind.",
+    q1: "Does Judy Academy belong to any political party?",
+    a1: "No. Judy Academy is fully independent — not affiliated with any political party. We are a dedicated academic institution carrying out research projects without discrimination.",
     tag1: "Independence",
 
     // FAQ 2
@@ -19,8 +19,8 @@ const faqTranslations: Record<Lang, Record<string, string>> = {
     tag2: "Donations",
 
     // FAQ 3
-    q3: "Do you help patients, or only specific projects?",
-    a3: "Our primary focus today is sponsoring and supporting orphans across 4 Governorates. A portion of our aid also supports the sick. We've run many different programs over the years and continue to adapt.",
+    q3: "Does the Academy support individual researchers?",
+    a3: "Our primary focus is advancing Qur'anic research and Islamic sciences. We provide research fellowships, host academic events, and support scholars across the Kurdistan Region.",
     tag3: "Programs",
 
     // FAQ 4
@@ -49,8 +49,8 @@ const faqTranslations: Record<Lang, Record<string, string>> = {
     headingLine1: "ئەو پسیارانەی",
     headingAccent: "زۆر لێمان دەکرێت",
     headerNote: "وەڵامەکەت لێرە نەدۆزیەوە؟ ڕاستەوخۆ پەیوەندیمان پێوە بکە",
-    q1: "ئایا دەزگای ئیلیا سەر بە پارتێکی سیاسییەوەیە؟",
-    a1: "نەخێر. دەزگای ئیلیا بەتەواوی سەربەخۆیە — سەر بە هیچ پارتێکی سیاسییەوە نییە. مۆڵەتمان لە بەڕێوەبەرایەتی ڕێکخراوەکانەوە هەیە و هەموو پڕۆژەکانمان بەبێ جیاوازی جێبەجێ دەکەین.",
+    q1: "ئایا ئەکادیمیای جودی سەر بە پارتێکی سیاسییەوەیە؟",
+    a1: "نەخێر. ئەکادیمیای جودی بەتەواوی سەربەخۆیە — سەر بە هیچ پارتێکی سیاسییەوە نییە. ئێمە دامەزراوەیەکی ئەکادیمیین و پڕۆژەکانمان بەبێ جیاوازی جێبەجێ دەکەین.",
     tag1: "سەربەخۆیی",
 
     q2: "چۆن بەخشینەکانم لە دەرەوەی کوردستان یان عێراقەوە بنێرم؟",
@@ -85,8 +85,8 @@ const faqTranslations: Record<Lang, Record<string, string>> = {
     headingAccent: "تُطرح أكثر",
     headerNote: "لم تجد إجابتك هنا؟ تواصل معنا مباشرة — نرد على كل رسالة باهتمام.",
 
-    q1: "هل تنتمي مؤسسة إيليا لأي حزب سياسي؟",
-    a1: "لا. مؤسسة إيليا مستقلة تماماً — غير مرتبطة بأي حزب سياسي. نحن مرخصون من مكتب المنظمات غير الحكومية وننفذ جميع المشاريع دون أي تمييز.",
+    q1: "هل تنتمي أكاديمية جودي لأي حزب سياسي؟",
+    a1: "لا. أكاديمية جودي مستقلة تماماً — غير مرتبطة بأي حزب سياسي. نحن مؤسسة أكاديمية ننفذ مشاريع بحثية دون أي تمييز.",
     tag1: "الاستقلالية",
 
     q2: "كيف يمكنني إرسال التبرعات من خارج كوردستان أو العراق؟",

@@ -9,10 +9,13 @@ import footerTranslations from "./footer";
 import contactTranslations from "./contact";
 import newsTranslations from "./news";
 
+import aboutTranslations from "./about";
+
 // Central translations registry — add new sections here
 const allTranslations: Record<string, Record<Lang, Record<string, string>>> = {
   header: headerTranslations,
   hero: heroTranslations,
+  about: aboutTranslations,
   testimonials: testimonialsTranslations,
   gallery: galleryTranslations,
   faq: faqTranslations,
