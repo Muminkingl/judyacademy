@@ -44,8 +44,8 @@ const Brackets = ({ size = 14 }: { size?: number }) => (
 );
 
 // ── Skeleton loader ──────────────────────────────────────────────────────────
-const Skeleton = ({ className = "" }: { className?: string }) => (
-  <div className={`animate-pulse rounded-sm ${className}`} style={{ background: "rgba(201,168,76,0.08)" }} />
+const Skeleton = ({ className = "", style }: { className?: string; style?: React.CSSProperties }) => (
+  <div className={`animate-pulse rounded-sm ${className}`} style={{ background: "rgba(201,168,76,0.08)", ...style }} />
 );
 
 export default function NewsPageJudy() {

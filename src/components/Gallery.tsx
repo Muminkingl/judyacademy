@@ -133,8 +133,8 @@ const PenIllustration = () => (
 const illustrations = [BookIllustration, ScrollIllustration, MosqueIllustration, StarIllustration, PenIllustration];
 
 // ── Ornamental elements ──────────────────────────────────────────────────────
-const OrnateRule = ({ className = "" }: { className?: string }) => (
-  <div className={`flex items-center gap-2 ${className}`}>
+const OrnateRule = ({ className = "", style }: { className?: string; style?: React.CSSProperties }) => (
+  <div className={`flex items-center gap-2 ${className}`} style={style}>
     <div className="h-px flex-1" style={{ background: "linear-gradient(to right, transparent, rgba(201,168,76,0.5))" }} />
     <Star className="w-2.5 h-2.5 shrink-0" style={{ color: "#C9A84C", opacity: 0.7 }} fill="#C9A84C" fillOpacity={0.4} />
     <div className="w-4 h-px" style={{ background: "rgba(201,168,76,0.25)" }} />

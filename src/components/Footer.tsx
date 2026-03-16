@@ -87,10 +87,10 @@ export default function FooterJudy() {
   ];
 
   const socials = [
-    { Icon: Facebook, href: "https://www.facebook.com/", label: "Facebook" },
-    { Icon: Instagram, href: "https://www.instagram.com/", label: "Instagram" },
-    { Icon: YoutubeIcon, href: "https://www.youtube.com/", label: "YouTube" },
-    { Icon: TiktokIcon, href: "https://www.tiktok.com/", label: "TikTok" },
+    { Icon: Facebook, href: "https://www.facebook.com/profile.php?id=100080358165818&rdid=XqLUGGbXIPUn2JxT&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1G939J2nGX#", label: "Facebook" },
+    { Icon: Instagram, href: "https://www.instagram.com/judy.academy/", label: "Instagram" },
+    { Icon: YoutubeIcon, href: "https://www.youtube.com/channel/UCg6wC_h_wGzG2_QZHGljFYA", label: "YouTube" },
+    { Icon: TiktokIcon, href: "https://www.tiktok.com/@judyacademy1", label: "TikTok" },
   ];
 
   const stagger = { hidden: {}, show: { transition: { staggerChildren: 0.07, delayChildren: 0.05 } } };
