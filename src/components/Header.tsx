@@ -35,11 +35,10 @@ export default function HeaderJudy() {
 
   const navLinks = [
     { label: t("header", "home"), href: "/" },
-
     { label: t("header", "gallery"), href: "/#gallery" },
+    { label: t("header", "news"), href: "/news" },
     { label: t("header", "faq"), href: "/#faq" },
     { label: t("header", "contact"), href: "/contact" },
-    { label: t("header", "news"), href: "/news" },
   ];
 
   const [activeSection, setActiveSection] = useState(pathname || "/");
@@ -158,7 +157,7 @@ export default function HeaderJudy() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
           {/* ── DESKTOP nav — three-column: logo | links | actions ── */}
-          <div className="hidden lg:grid grid-cols-[auto_1fr_auto] items-center h-[68px] gap-8">
+          <div className="hidden lg:grid grid-cols-[auto_1fr_auto] items-center h-[68px] gap-8" dir={dir}>
 
             {/* LEFT: Seal + Academy name */}
             <motion.a
@@ -169,13 +168,13 @@ export default function HeaderJudy() {
               className="flex items-center gap-3 shrink-0"
               whileHover={{ opacity: 0.85 }}
             >
-              <img src="/judy.png" alt="Judy Academy Logo" className="w-10 h-10 object-contain" />
+              <img src="/judy.png" alt="Judy Academy Logo" className="w-14 h-14 object-contain" />
               <div className="flex flex-col justify-center leading-tight">
-                <span className="text-[9px] font-bold tracking-[0.22em] uppercase"
+                <span className="text-[10px] font-bold tracking-[0.22em] uppercase"
                   style={{ color: "rgba(201,168,76,0.6)", fontStyle: "italic" }}>
                   {t("header", "academicTag")}
                 </span>
-                <span className="font-black text-lg leading-none"
+                <span className="font-black text-xl leading-none"
                   style={{ color: "#F5EDD0", fontFamily: "Georgia, serif" }}>
                   {t("header", "foundationName")}
                 </span>
@@ -183,7 +182,7 @@ export default function HeaderJudy() {
             </motion.a>
 
             {/* CENTER: Nav links with ornate separators */}
-            <nav className={`flex items-center justify-center gap-0 ${isRTL ? "flex-row-reverse" : ""}`}>
+            <nav className="flex items-center justify-center gap-0">
               {navLinks.map((link, i) => {
                 const isActive = activeSection === link.href ||
                   (activeSection.startsWith(link.href) && link.href !== "/");
