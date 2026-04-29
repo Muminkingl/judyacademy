@@ -75,6 +75,7 @@ export default function FooterJudy() {
 
     { label: t("footer", "linkGallery") || "Gallery", href: "/#gallery" },
     { label: t("footer", "linkFaq") || "FAQ", href: "/#faq" },
+    { label: t("footer", "linkResearch") || "Research", href: "https://aljam3.com", target: "_blank" },
     { label: t("footer", "linkContact") || "Contact", href: "/contact" },
     { label: t("footer", "linkNews") || "News", href: "/news" },
   ];
@@ -199,6 +200,8 @@ export default function FooterJudy() {
                 <li key={link.href + link.label}>
                   <a
                     href={link.href}
+                    target={(link as any).target}
+                    rel={(link as any).target === "_blank" ? "noopener noreferrer" : undefined}
                     className="group flex items-center gap-2 text-xs transition-colors"
                     style={{ color: "rgba(191,168,130,0.45)" }}
                   >

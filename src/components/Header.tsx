@@ -38,6 +38,7 @@ export default function HeaderJudy() {
     { label: t("header", "gallery"), href: "/#gallery" },
     { label: t("header", "news"), href: "/news" },
     { label: t("header", "faq"), href: "/#faq" },
+    { label: t("header", "research"), href: "https://aljam3.com", target: "_blank" },
     { label: t("header", "contact"), href: "/contact" },
   ];
 
@@ -194,6 +195,8 @@ export default function HeaderJudy() {
                     )}
                     <motion.a
                       href={link.href}
+                      target={link.target}
+                      rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: i * 0.06, duration: 0.45 }}
@@ -377,6 +380,8 @@ export default function HeaderJudy() {
                         <motion.a
                           key={link.href}
                           href={link.href}
+                          target={link.target}
+                          rel={link.target === "_blank" ? "noopener noreferrer" : undefined}
                           initial={{ opacity: 0, x: isRTL ? 16 : -16 }}
                           animate={{ opacity: 1, x: 0 }}
                           transition={{ delay: i * 0.06 }}

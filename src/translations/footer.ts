@@ -18,6 +18,7 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     linkDonate: "Donate",
     linkContact: "Contact",
     linkNews: "News",
+    linkResearch: "Research",
 
     // Programs
     prog1: "Qur'anic Exegesis",
@@ -50,6 +51,7 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     linkDonate: "بەخشین",
     linkContact: "پەیوەندی",
     linkNews: "هەواڵ",
+    linkResearch: "توێژینەوە",
 
     prog1: "تەفسیری قورئان",
     prog2: "زانستە ئیسلامییەکان",
@@ -79,6 +81,7 @@ const footerTranslations: Record<Lang, Record<string, string>> = {
     linkDonate: "تبرع",
     linkContact: "اتصل بنا",
     linkNews: "الأخبار",
+    linkResearch: "البحوث",
 
     prog1: "تفسير القرآن",
     prog2: "العلوم الإسلامية",

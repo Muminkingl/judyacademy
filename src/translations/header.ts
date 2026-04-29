@@ -14,6 +14,7 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
     faq: "FAQ",
     contact: "Contact",
     news: "News",
+    research: "Research",
 
     // Taglines
     tagline: "Advancing Qur'anic Knowledge",
@@ -37,6 +38,7 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
     faq: "پرسیارەکان",
     contact: "پەیوەندی",
     news: "هەواڵ",
+    research: "توێژینەوە",
 
     // Taglines
     tagline: "پەرەپێدانی زانیاریی قورئانی",
@@ -60,6 +62,7 @@ const headerTranslations: Record<Lang, Record<string, string>> = {
     faq: "الأسئلة",
     contact: "اتصل بنا",
     news: "الأخبار",
+    research: "البحوث",
 
     // Taglines
     tagline: "نشر المعرفة القرآنية",
